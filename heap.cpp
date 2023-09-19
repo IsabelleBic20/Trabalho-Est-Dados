@@ -71,7 +71,7 @@ void Heap::insere_lista(int *n, int S[MAX], int p) // n-> quantidade de clientes
 }
 
 int Heap::extrai_maxima(int *n, int S[MAX])
-{ // REVISAR
+{ 
   int maior = 0;
 
   for (int i = 0; i < *n; i++)
@@ -102,16 +102,3 @@ int Heap::extrai_maxima(int *n, int S[MAX])
   return 0; // Se não tiver elementos na lista, retornar -1
 }
 
-/*int Heap::consulta_maxima(int S[MAX]){
-  return S[0];
-}*/
-
-/*void Heap::aumenta_prioridade(int n, int S[MAX], int i, int p)
-{
-if (p < S[i])
-printf("ERRO: nova prioridade é menor que da célula\n");
-else {
-S[i] = p;
-sobe(n, S, i);
-}
-}*/
