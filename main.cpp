@@ -58,7 +58,7 @@ void ProcessarPedidos(Cliente &cliente, Produto produtos[])
 
         // Imprime informações sobre o cliente e o pedido
         cout << "ID do Cliente : [ " << cliente.getId_cliente() << " ]" << endl;
-        cout << "Nome          : [ " << cliente.getNome_cliente() << "# ]" << endl;
+        cout << "Nome          : [ " << cliente.getNome_cliente() << " ]" << endl;
         cout << "ID do Produto : [ " << id_produto_cliente << " ]" << endl;
         cout << "Quantidade    : [ " << quantidade_pedido << " ]" << endl
              << endl;
