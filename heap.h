@@ -2,16 +2,16 @@
 #define HEAP_H
 #include "max.h"
 
-class Heap {
+class Heap
+{
 public:
-Heap();
+    Heap();
     void inicializar_lista_prioridades(int S[]);
     void insere_lista(int *n, int S[MAX], int p);
     void troca(int *menor, int *maior);
     int extrai_maxima(int *n, int S[MAX]);
-    //void aumenta_prioridade(int n, int S[MAX],  int i, int p);
-    //int consulta_maxima(int S[MAX]);
- 
+    // void aumenta_prioridade(int n, int S[MAX],  int i, int p);
+    // int consulta_maxima(int S[MAX]);
 
 private:
     int S[MAX];
